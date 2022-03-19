@@ -1,0 +1,99 @@
+body{
+  
+  text-align: center;
+  font-family: "neo";
+  color: #ecf0f1;
+
+}
+.hidden {
+  display: none;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 40%;
+}
+
+ul {
+  margin-top: 25px;   /* distance between input and list */
+}
+
+li{
+  font-size: 30px;
+  text-align:left;
+
+}
+.cancleButton{
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+
+
+#login-form {
+  margin-bottom: 30px;
+}
+#login-form  input{
+  background: none;
+  font-size:5em;
+  cursor: pointer;
+  border-bottom: 2px solid white;
+}
+input{
+  font-family: "neo";
+  background: none;
+  border: 0;
+  font-size: 22px;
+  color: white;
+  border-bottom: 2px solid white;
+
+}
+input::placeholder {
+  color: white;
+}
+
+#clock {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size:15em;
+}
+#greeting {
+  margin-top: 30px;
+  font-size: 5em;
+
+}
+#weather {
+  margin-bottom: 30px;
+  font-size: 3em;
+}
+
+.backgroundImg {
+  position: absolute;
+  top:0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+
+}
+
+/*font*/
+@font-face {
+  font-family: "neo";
+  src: url("neodgm.ttf") format("truetype");
+}
+
+@keyframes fadeIn{
+  from {
+      opacity: 0;
+  }
+  to{
+      opacity : 1;
+  }
+}
